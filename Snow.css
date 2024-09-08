@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+
+
+position: relative;
+background:url(Banner.jpg);
+background-size: cover;
+
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+.snow{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: url(snow.WEBP);
+mix-blend-mode: screen;
+}
+.snow1 {
+
+animation :animateSnow1 3s linear infinite;
+
+}
+.snow2 {
+
+    animation :animateSnow2 1s linear infinite;
+    
+    }
+    .snow3{
+
+        animation :animateSnow3 5s linear infinite;
+        
+        }
+@keyframes animateSnow1{
+
+0%{
+
+    background-position: 10px 30px;
+
+}
+
+100%{
+
+background-position: 90px 50px;
+
+
+}
+}
+@keyframes animateSnow2{
+
+    0%{
+    
+        background-position: 10px 30px;
+    
+    }
+    
+    100%{
+    
+    background-position: 20px 30px;
+ 
+    }
+
+}
+@keyframes animateSnow3{
+
+    0%{
+    
+        background-position: 10px 30px;
+    transform: scale(15);
+    }
+    
+    100%{
+    
+    background-position: 0 100px;
+ transform: scale(15);
+    }
+
+}
+    
+    
+   
+    
+    
+    
